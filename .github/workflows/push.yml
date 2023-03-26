@@ -24,7 +24,6 @@ jobs:
       - name: Build and cache
         uses: docker/build-push-action@v3
         with:
-          target: builder
           platforms: |
             linux/386
             linux/amd64
