@@ -7,7 +7,7 @@ RUN set -eux \
     && rm -rf /var/lib/apt/lists/* /var/log/*
 
 EXPOSE 53/tcp
-EXPOSE 53/udp 
+EXPOSE 53/udp
 EXPOSE 67/udp
 
 ENTRYPOINT ["/usr/sbin/dnsmasq"]
